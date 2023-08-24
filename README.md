@@ -1,9 +1,16 @@
 # Marlin-Firmware-BTT-SKR-E3V2
-Marlin Firmware Ender 3 :  BTT SKR E3V2 + BTT TFT E35 V3 E3 + BTT SMART FILAMENT SENSOR V1 + BLTOUCH + DIRECTDRIVE
+Marlin Firmware Ender 3 :  BTT SKR E3V2 + BTT TFT E35 V3 E3 + BTT SMART FILAMENT SENSOR V1 + BLTOUCH 3D TOUCH CLONE + DIRECTDRIVE
 
-DirectDrive : https://www.thingiverse.com/thing:3650780 #define NOZZLE_TO_PROBE_OFFSET { -45, -10, 0 }
+DirectDrive : https://www.thingiverse.com/thing:3650780 #define NOZZLE_TO_PROBE_OFFSET { -45, -10, 0 } be careful the nozzle fan need to be adjusted on the stl because the size is different. And BLTOUCH is to hight but it work 
+BTT SFS Top Mount : https://www.thingiverse.com/thing:5693438
+Spool Holder : https://www.printables.com/fr/model/189847-ender-3-angled-spool-holder/remixes
+Vslot cover for the cable of the BTT SFS : https://www.printables.com/fr/model/374623-flush-v-slot-rail-covers-parametric-pre-sized-for-/files
 
-BTT SFS check the pinout on the board and the sensor - if using the Touch mode : need to set the sensor to : off
+BTT SFS check the pinout on the board and the sensor - if using the Touch mode : need to set the sensor on the TFT to : off
+
+Vrefs : Extruder 99.91
+PID : BED : Kp 143.73 Ki 27.64 Kd 498.260
+PID : HOTEND : Kp 23.82 Ki 2.13 Kd 66.70
 
 Start Gcode : 
 M75
