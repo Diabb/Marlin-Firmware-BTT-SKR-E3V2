@@ -1,7 +1,7 @@
 # Marlin-Firmware-BTT-SKR-E3V2
 Marlin Firmware Ender 3 :  BTT SKR E3V2 + BTT TFT E35 V3 E3 + BTT SMART FILAMENT SENSOR V1 + BLTOUCH + DIRECTDRIVE
 
-DirecrDrive : https://www.thingiverse.com/thing:3650780 #define NOZZLE_TO_PROBE_OFFSET { -45, -10, 0 }
+DirectDrive : https://www.thingiverse.com/thing:3650780 #define NOZZLE_TO_PROBE_OFFSET { -45, -10, 0 }
 
 BTT SFS check the pinout on the board and the sensor - if using the Touch mode : need to set the sensor to : off
 
