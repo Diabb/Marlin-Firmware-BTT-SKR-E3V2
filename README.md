@@ -8,7 +8,7 @@ Vslot cover for the cable of the BTT SFS : https://www.printables.com/fr/model/3
 
 BTT SFS check the pinout on the board and the sensor - if using the Touch mode : need to set the sensor on the TFT to : off
 
-Vrefs : Extruder 99.91
+Steps : Extruder 99.91
 PID : BED : Kp 143.73 Ki 27.64 Kd 498.260
 PID : HOTEND : Kp 23.82 Ki 2.13 Kd 66.70
 
