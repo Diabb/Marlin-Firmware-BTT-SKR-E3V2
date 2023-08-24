@@ -6,11 +6,13 @@ BTT SFS Top Mount : https://www.thingiverse.com/thing:5693438 need to find a tal
 Spool Holder : https://www.printables.com/fr/model/189847-ender-3-angled-spool-holder/remixes need to finf a taller version
 Vslot cover for the cable of the BTT SFS : https://www.printables.com/fr/model/374623-flush-v-slot-rail-covers-parametric-pre-sized-for-/files
 
+Need to be tested  : https://www.printables.com/fr/model/163997-bigtreetech-smart-filament-sensor-mounting-kit-for
+
 BTT SFS check the pinout on the board and the sensor - if using the Touch mode : need to set the sensor on the TFT to : off
 
 Steps : Extruder 99.91
-PID : BED : Kp 143.73 Ki 27.64 Kd 498.260
-PID : HOTEND : Kp 23.82 Ki 2.13 Kd 66.70
+PID : BED : Kp 87.00 Ki 16.65 Kd 309.42
+PID : HOTEND : Kp 24.34 Ki 2.29 Kd 64.74
 
 Start Gcode : 
 M75
