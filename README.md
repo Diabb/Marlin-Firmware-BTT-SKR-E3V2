@@ -2,6 +2,7 @@
 Marlin Firmware Ender 3 :  BTT SKR E3V2 + BTT TFT E35 V3 E3 + BTT SMART FILAMENT SENSOR V1 + BLTOUCH 3D TOUCH CLONE + DIRECTDRIVE
 
 DirectDrive : https://www.thingiverse.com/thing:3650780 #define NOZZLE_TO_PROBE_OFFSET { -45, -10, 0 } be careful the nozzle fan need to be adjusted on the stl because the size is different. And BLTOUCH is to hight but it work : MAX height 224mm the extruder is touching the cable of the SFS
+
 BTT SFS Top Mount : https://www.thingiverse.com/thing:5693438 need to find a taller version
 Spool Holder : https://www.printables.com/fr/model/189847-ender-3-angled-spool-holder/remixes need to finf a taller version
 Vslot cover for the cable of the BTT SFS : https://www.printables.com/fr/model/374623-flush-v-slot-rail-covers-parametric-pre-sized-for-/files
@@ -15,7 +16,7 @@ PID : BED : Kp 87.00 Ki 16.65 Kd 309.42
 PID : HOTEND : Kp 24.34 Ki 2.29 Kd 64.74
 
 Start Gcode : 
-M75
+M75\n
 G90 ; use absolute coordinates
 M83 ; extruder relative mode
 M104 S150 ; set temporary nozzle temp to prevent oozing during homing and auto bed leveling
@@ -46,4 +47,4 @@ M140 S0 ; turn off heatbed
 M104 S0 ; turn off temperature
 M107 ; turn off fan
 M84 X Y E ; disable motors
-M77
+M77\n
